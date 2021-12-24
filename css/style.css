@@ -112,6 +112,7 @@ body{
     background-size: cover;
 }
 .banner_txt{
+    min-height: 200px;
     padding: 20px;
     text-align: center;
     color: #fff;
@@ -247,6 +248,20 @@ body{
     letter-spacing: 0.2px;
     color: #fff;
 }
+.about_btn{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin: 20px 0px;
+}
+.about_btn a{
+    background: #fff;
+    padding: 8px 16px;
+    border-radius: 4px;
+    color: rgb(19, 9, 104);
+    font-weight: 500;
+    text-decoration: none;
+}
 .msg_box{
     position: relative;
     width: 100%;
@@ -347,17 +362,19 @@ body{
     font-size: 18px;
     color: rgb(19, 9, 104);
     margin-bottom: 6px;
+    margin-top: 16px;
 }
 .footer_links-link ul{
     list-style: none;
     display: flex;
     flex-direction: column;
+    margin-bottom: 10px;
 }
 .footer_links-link ul li{
     margin: 2px 0px;
 }
 .footer_links-link ul li a{
-    color: black;
+    color: rgb(5, 1, 1);
     font-weight: 400;
     font-size: 14px;
 }
@@ -382,7 +399,7 @@ body{
 }
 .footer_nav-slinks{
     position: relative;
-    margin-right: 10px;
+    margin-right: 30px;
 }
 .footer_nav-slinks ul{
     display: flex;

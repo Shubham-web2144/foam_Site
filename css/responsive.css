@@ -89,4 +89,7 @@
   .footer_links-link h3{
     font-size: 18px;
   }
+  .products_page__product{
+    flex-direction: column;
+  }
 }
