@@ -61,3 +61,20 @@
 .card{
     /* background: #f1f1f1; */
 }
+.about_text_text{
+    color: black;
+}
+.about_reviwe_title{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+}
+.about_reviwe_title span{
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 0.4px;
+}
