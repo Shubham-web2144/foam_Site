@@ -1,0 +1,89 @@
+.admin{
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+.admin_header{
+    position: relative;
+    width: 100%;
+    margin: 18px 0px;
+    /* background-color: #FFF; */
+    /* box-shadow: 0px 3px 10px rgba(0,0,0,0.2); */
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.admin_header-title{
+    font-size: 26px;
+    font-weight: 800;
+    color: rgb(15, 6, 92);
+}
+.admin_header-txt{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(26, 22, 18);
+    letter-spacing: 0.6px;
+}
+.admin_login{
+    position: relative;
+    min-width: 320px; 
+    background-color: #FFF;
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 7px;
+    box-shadow: 3px 0px 8px rgba(0,0,0,0.05),
+                0px 4px 10px rgba(0,0,0,0.3);
+}
+.admin_login form{
+    position: relative;
+    width: 100%;
+    padding: 0px 6px;
+}
+.admin_login form .admin_form-input{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.admin_login form .admin_form-input input, .admin_login form .admin_form-input textarea{
+    width: 380px;
+    padding: 5px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 6px;
+}
+.admin_login form .admin_form-input input:focus, .admin_login form .admin_form-input textarea:focus{
+    border: 2px solid rgb(15, 6, 92);
+}
+.admin_form-btn{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.admin_form-btn button{
+    width: 130px;
+    height: 30px;
+    border: none;
+    background-color: rgb(22, 11, 129);
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 6px;
+}
+.admin_login-title{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin: 14px 0px;
+}
+.admin_login-title span{
+    font-size: 20px;
+    color: rgb(15, 6, 92);
+}

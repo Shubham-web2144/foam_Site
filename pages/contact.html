@@ -38,7 +38,7 @@
           </div>
           <ul>
             <li><a href="../index.html">Home</a></li>
-            <li><a href="../php/product.html">Foam Products</a></li>
+            <li><a href="../php/product.php">Foam Products</a></li>
             <li><a href="../pages/about.html">About Us</a></li>
             <li><a href="#">Contact US</a></li>
           </ul>
@@ -47,7 +47,7 @@
           <i class="fas fa-bars"></i>
         </div>
       </header>
-      <section class="banner">
+      <section class="banner" style="background-image: url('../img/imd_3.jpg');">
         <div class="banner_txt">
           <h1>Contact Us</h1>
           <p>
@@ -75,20 +75,20 @@
             <li>Phone: 281.565.9618</li>
           </ul>
         </div>
-        <form action="" method="post" class="contact_form-form">
+        <form action="../php/contactus.php" method="post" class="contact_form-form">
             <div class="contact_form-field">
                 <div class="contact_form-input">
                     <label for="name">First Name</label> 
                     <input type="text" name="fname">
                 </div>
                 <div class="contact_form-input">
-                    <label for="name">First Name</label> 
+                    <label for="name">Last Name</label> 
                     <input type="text" name="lname">
                 </div>
             </div>
             <div class="contact_form-input">
                 <label for="name">Email</label> 
-                <input type="text" name="mail">
+                <input type="mail" name="mail">
             </div>
             <div class="contact_form-input">
                 <label for="name">Company Name</label> 
@@ -111,9 +111,9 @@
           <div class="footer_links-link">
             <h3>Products</h3>
             <ul>
-              <li><a href="#">Product-1</a></li>
-              <li><a href="#">Product-2</a></li>
-              <li><a href="#">Product-3</a></li>
+              <li><a href="../php/product.php">Foam Products</a></li>
+              <li><a href="../php/product.php">Plastic Products</a></li>
+              <!-- <li><a href="#">Product-3</a></li> -->
             </ul>
           </div>
           <div class="footer_links-link">

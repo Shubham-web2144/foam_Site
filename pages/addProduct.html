@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ameri Foam Site</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/admin.css">
+
+</head>
+<body>
+    <div class="wrapper">
+        <div class="admin">
+            <div class="admin_header">
+                <span class="admin_header-title">Ameri Foam</span>
+                <span class="admin_header-txt">Admin Page For Add Products</span>
+            </div>
+            <div class="admin_login">
+                <div class="admin_login-title">
+                    <span>Add Products</span>
+                </div>
+                <form action="../php/addProduct.php" method="POST" enctype="multipart/form-data">
+                    <div class="admin_form-input">
+                        <label for="">Stock Number</label>
+                        <input type="text" name="stock_num" />
+                    </div>
+                    <div class="admin_form-input">
+                        <label for="">Add Image</label>
+                        <input type="file" name="p_img" />
+                    </div>
+                    <div class="admin_form-input">
+                        <label for="">Product Description</label>
+                        <textarea name="prod_desc" id="" cols="30" rows="5"></textarea>
+                    </div>
+                    <div class="admin_form-input">
+                        <label for="">Product Dimension</label>
+                        <input type="text" name="dimension" />
+                    </div>
+                    <div class="admin_form-input">
+                        <label for="">Product Color</label>
+                        <input type="text" name="prod_clr" />
+                    </div>
+                    <div class="admin_form-input">
+                        <label for="">Quantity per Sleevs</label>
+                        <input type="number" name="qps" />
+                    </div>
+                    <div class="admin_form-input">
+                        <label for="">sleeves per case</label>
+                        <input type="number" name="spc" />
+                    </div>
+                    <div class="admin_form-input">
+                        <label for="">Item per case</label>
+                        <input type="number" name="ipc" />
+                    </div>
+                    <div class="admin_form-input">
+                        <label for="">Case Description</label>
+                        <textarea name="case_desc" id="" cols="30" rows="5"></textarea>
+                    </div>
+                    <div class="admin_form-input">
+                        <label for="">Case Cube</label>
+                        <input type="number" name="case_cube" />
+                    </div>
+                    <div class="admin_form-input">
+                        <label for="">Case Per Pallet</label>
+                        <input type="number" name="cpp" />
+                    </div>
+                    <div class="admin_form-input">
+                        <label for="">Product Height</label>
+                        <input type="text" name="prod_h" />
+                    </div>
+                    <div class="admin_form-input">
+                        <label for="">Product weight</label>
+                        <input type="number" name="prod_w" />
+                    </div>
+
+                    <div class="admin_form-btn">
+                        <button type="submit" name="login">Add Product</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

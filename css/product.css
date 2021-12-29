@@ -17,6 +17,9 @@
     border-bottom: 2px solid rgb(19, 9, 104);
     margin: 10px 0px;
 }
+.products_page__product:nth-last-child(){
+    border: none;
+}
 .products_page__product-img{
     position: relative;
     display: flex;

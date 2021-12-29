@@ -106,7 +106,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('../img/download.jpg');
+    background-image: url('../img/img_1.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -413,3 +413,8 @@ body{
     color: black;
     font-weight: 800;
 }
+.products-btn a{
+     background-color: rgb(34, 21, 151);
+     /* border: 1px solid rgb(34, 21, 151); */
+}
+

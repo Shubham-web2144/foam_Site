@@ -37,7 +37,7 @@
           </div>
           <ul>
             <li><a href="">Home</a></li>
-            <li><a href="./php/product.html">Foam Products</a></li>
+            <li><a href="./php/product.php">Foam Products</a></li>
             <li><a href="./pages/about.html">About Us</a></li>
             <li><a href="./pages/contact.html">Contact US</a></li>
           </ul>
@@ -50,7 +50,7 @@
       <section class="banner">
         <div class="banner_txt">
           <h4>Durable Construction & Keep Food Fresh</h4>
-          <h1>Foam Pak us</h1>
+          <h1>Ameri Foam Containers</h1>
           <h5>
             Offers Foam and Plastic Deli
             <span class="banner_txt-c">Containers</span> with Great Quality and
@@ -88,8 +88,9 @@
               "
             >
               <h1 class="sm:text-4xl text-3xl mb-4 font-medium text-indigo-900">
-                Before they sold out
-                <br class="hidden lg:inline-block" />readymade gluten
+                Foam Hinged Lid
+                <br class="hidden lg:inline-block" />
+                Containers and more
               </h1>
               <p class="mb-8 leading-relaxed">
                 Copper mug try-hard pitchfork pour-over freegan heirloom neutra
@@ -98,7 +99,20 @@
                 truffaut hexagon try-hard chambray.
               </p>
               <div class="flex justify-center products-btn">
-                <button
+                <a
+                  href="./php/product.php"
+                  class="
+                    text-white
+                    border-0
+                    py-2
+                    px-6
+                    focus:outline-none
+                    hover:bg-indigo-600
+                    rounded
+                    text-lg
+                  "
+                  >Explore Products</a
+                ><!-- <button
                   class="
                     inline-flex
                     text-white
@@ -110,9 +124,10 @@
                     rounded
                     text-lg
                   "
+                  id="product-btn"
                 >
                   Explore Products
-                </button>
+                </button> -->
                 <!-- <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button> -->
               </div>
             </div>
@@ -158,8 +173,8 @@
               "
             >
               <h1 class="sm:text-4xl text-3xl mb-4 font-medium text-indigo-900">
-                Before they sold out
-                <br class="hidden lg:inline-block" />readymade gluten
+                Plastic Deli
+                <br class="hidden lg:inline-block" />Containers and Lids
               </h1>
               <p class="mb-8 leading-relaxed">
                 Copper mug try-hard pitchfork pour-over freegan heirloom neutra
@@ -168,7 +183,21 @@
                 truffaut hexagon try-hard chambray.
               </p>
               <div class="flex justify-center products-btn">
-                <button
+                <a
+                  href="./php/product.php"
+                  class="
+                    text-white
+                    border-0
+                    py-2
+                    px-6
+                    focus:outline-none
+                    hover:bg-indigo-600
+                    rounded
+                    text-lg
+                  "
+                  >Explore Products</a
+                >
+                <!-- <button
                   class="
                     inline-flex
                     text-white
@@ -180,9 +209,10 @@
                     rounded
                     text-lg
                   "
+                  id="product-btn"
                 >
                   Explore Products
-                </button>
+                </button> -->
                 <!-- <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button> -->
               </div>
             </div>
@@ -193,7 +223,7 @@
       <section class="about">
         <div class="overlayer">
           <div class="about_title">
-            <span>About</span>
+            <span>About Us</span>
           </div>
           <div class="about_info">
             <p>Good things happen when everything connects</p>
@@ -202,14 +232,7 @@
               containers in Texas, U.S.A since 2007. Improving the customer
               satisfaction is our ultimate goal. we are striving to provide the
               best quality and competitive price of packaging products for the
-              food industry. Over the years, We have garnered the trust and
-              loyalty of countless customers by providing them with high quality
-              food packaging products made with the latest technologies.
-              Minimizing environmental pollution is our top responsibility. we
-              always care about utilizing environmentally friendly manufacturing
-              methods to avoid industrial pollution and strengthening
-              environmental protections. Keep reading to learn more, and reach
-              out with questions on what we have to offer
+              food industry.
             </p>
           </div>
           <div class="about_btn">
@@ -222,18 +245,34 @@
         <div class="msg_box-title">
           <h1>Send a Message</h1>
         </div>
-        <form action="#" method="post" class="msg_box-input">
+        <form action="./php/msg.php" method="post" class="msg_box-input">
           <div class="msg_box-inputField">
-            <input type="text" name="mname"  placeholder="Enter your name"/>
+            <input
+              type="text"
+              name="mname"
+              placeholder="Enter your name"
+              required
+            />
           </div>
           <div class="msg_box-inputField">
-            <input type="mail" name="mail"  placeholder="Enter your email"/>
+            <input
+              type="mail"
+              name="mail"
+              placeholder="Enter your email"
+              required
+            />
           </div>
           <div class="msg_box-inputField">
-            <textarea name="msg" id="" cols="30" rows="5" placeholder="Enter your message here..."></textarea>
+            <textarea
+              name="msg"
+              id=""
+              cols="30"
+              rows="5"
+              placeholder="Enter your message here..."
+            ></textarea>
           </div>
           <div class="msg_box-btn">
-            <button type="submit">Send</button>
+            <button type="submit" name="submit">Send</button>
           </div>
         </form>
       </section>
@@ -241,14 +280,14 @@
       <footer class="footer">
         <div class="footer_links">
           <div class="footer_links-about">
-            <img src="./img/AmeriPackaging--Logo-C4.png" alt="">
+            <img src="./img/AmeriPackaging--Logo-C4.png" alt="" />
           </div>
           <div class="footer_links-link">
             <h3>Products</h3>
             <ul>
-              <li><a href="#">Product-1</a></li>
-              <li><a href="#">Product-2</a></li>
-              <li><a href="#">Product-3</a></li>
+              <li><a href="./php/product.php">Faom Products</a></li>
+              <li><a href="./php/product.php">Plastic Products</a></li>
+              <!-- <li><a href="#">Product-3</a></li> -->
             </ul>
           </div>
           <div class="footer_links-link">
@@ -274,9 +313,15 @@
           </div>
           <div class="footer_nav-slinks">
             <ul>
-              <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
-              <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
-              <li><a href="#"><i class="fas fa-envelope"></i></a></li>
+              <li>
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-twitter-square"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fas fa-envelope"></i></a>
+              </li>
             </ul>
           </div>
         </div>
